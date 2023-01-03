@@ -22,24 +22,24 @@
   <img src="https://github.com/HannahHunag/Line_Notify_assistant/blob/main/Pictures/L.png" lign="left"  width="900"/>  
   
 ### Google App Script 程式碼  
-第四行要放入 
+第4行要放入 
 * Excel試算表的網址中間段，例如此網址**XXXXX**的部分：https://docs.google.com/spreadsheets/d/XXXXX/edit#gid=0
 * 以及放入試算表分頁名稱
 ```js
 var sheet = SpreadsheetApp.openById('你的Excel試算表的網址中間段').getSheetByName('Excel試算表分頁名稱');
 ```
-第32行要放入在 LINE Notify 官網 (https://notify-bot.line.me/zh_TW/) 申請的 token
-* 
+第32行要放入
+* 在 LINE Notify 官網 (https://notify-bot.line.me/zh_TW/) 申請的 token
 ```js
 var token = "Your_LINE_Notify_token";
 ```
 
 ### 設定自動推播時間
 * 在 GAS 中點選鬧鐘圖樣「**觸發條件**」  
-<img src="https://github.com/HannahHunag/Line_Notify_assistant/blob/main/Pictures/%E8%A7%B8%E7%99%BC%E6%8C%89%E9%88%95.png" lign="left"  width="250"/>
+<img src="https://github.com/HannahHunag/Line_Notify_assistant/blob/main/Pictures/%E8%A7%B8%E7%99%BC%E6%8C%89%E9%88%95.png" lign="left"  width="220"/>
 
-* 並且設定觸發時間，LINE Notify 機器人就會定時推播圖文
-<img src="https://github.com/HannahHunag/Line_Notify_assistant/blob/main/Pictures/%E8%A7%B8%E7%99%BC%E6%99%82%E9%96%93.png" lign="left"  width="250"/>
+* 並且點選右下角藍色按鈕「**新增觸發條件**」，設定觸發時間，LINE Notify 機器人就會定時推播圖文
+<img src="https://github.com/HannahHunag/Line_Notify_assistant/blob/main/Pictures/%E8%A7%B8%E7%99%BC%E6%99%82%E9%96%93.png" lign="left"  width="390"/>
   
   
 ### 呈現在 LINE 中的圖文推播機器人長這樣：  
