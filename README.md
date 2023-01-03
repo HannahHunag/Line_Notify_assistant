@@ -48,6 +48,5 @@ var token = "Your_LINE_Notify_token";
 <img src="https://github.com/HannahHunag/Line_Notify_assistant/blob/main/Pictures/%E8%A7%B8%E7%99%BC%E6%99%82%E9%96%93.png" lign="left"  width="390"/>
   
   
-### 呈現在 LINE 中的圖文推播機器人長這樣：  
-<img src="https://github.com/HannahHunag/Line_Notify_assistant/blob/main/Pictures/%E5%9C%96%E6%96%87%E6%A9%9F%E5%99%A8%E4%BA%BA1.jpg" lign="left"  width="250"/>
+
 
