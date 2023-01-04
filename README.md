@@ -35,8 +35,8 @@
   
 ## 📌 Google App Script 程式碼  
 完整程式碼請參考.js檔，以下僅提兩點注意事項：  
-**第 4 行**要放入 
-* Excel試算表的網址中間段，例如此網址`「XXXXX」`的部分：https://docs.google.com/spreadsheets/d/XXXXX/edit#gid=0
+**第 4 行**要放入以下兩項資訊 
+* Excel試算表的網址中間段，例如此網址「d/」和「/edit#gid=0」中間`「XXXXX」`的部分：https://docs.google.com/spreadsheets/d/XXXXX/edit#gid=0
 * 以及放入試算表分頁名稱
 ```js
 var sheet = SpreadsheetApp.openById('你的Excel試算表的網址中間段').getSheetByName('Excel試算表分頁名稱');
@@ -52,9 +52,7 @@ var token = "Your_LINE_Notify_token";
 * 在 GAS 中點選鬧鐘圖樣「**觸發條件**」  
 <img src="https://github.com/HannahHunag/Line_Notify_assistant/blob/main/Pictures/%E8%A7%B8%E7%99%BC%E6%8C%89%E9%88%95.png" lign="left"  width="220"/>
 
-* 並且點選右下角藍色按鈕「**新增觸發條件**」，設定觸發時間，LINE Notify 機器人就會定時推播圖文
+* 並且點選介面右下角藍色按鈕「**新增觸發條件**」<img src="https://github.com/HannahHunag/Line_Notify_assistant/blob/main/Pictures/icon.png" lign="left"  width="100"/>，設定觸發時間，LINE Notify 機器人就會定時推播圖文
 <img src="https://github.com/HannahHunag/Line_Notify_assistant/blob/main/Pictures/%E8%A7%B8%E7%99%BC%E6%99%82%E9%96%93.png" lign="left"  width="390"/>
   
-  
-
 
