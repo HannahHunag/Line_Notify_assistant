@@ -2,7 +2,7 @@
 今天要介紹的是 **Line Notify 定時推播圖文機器人** 🔥！ 它能做的事很多，又不像是 LINE BOT 有推播訊息則數的限制，可以製作許多個人小工具。  
 本篇要介紹的機器人製作方式，是使用 `Google apps script`(簡稱GAS) 加上 `Google Excel` 試算表來完成。 甚麼是 Google apps script 呢？其名稱的由來，部分原因是它的程式語法基本上是繼承 JavaScript 進一步擴展，它能操作的對象是 Google 的各項產品應用，`「Google apps script」=「Google apps」+「JavaScript」`。所以只要熟悉 JS 語法，即可應用 GAS 玩出許多變化。  
   
-筆者之前做過 **Line Notify** 個人助理，像這樣：  
+筆者之前做過 **Line Notify 個人助理**，像這樣：  
 <img src="https://github.com/HannahHunag/Line_Notify_assistant/blob/main/Pictures/%E5%80%8B%E4%BA%BA%E5%8A%A9%E7%90%86.jpg"  lign="left"  width="250"/> 
 
 今天要介紹的圖文推播機器人可以放在群組裡，而且**沒有推播訊息則數限制**，成果長這樣：  
